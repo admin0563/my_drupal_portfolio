@@ -1,0 +1,19 @@
+# Ignore vendor and compiled assets
+/vendor/
+node_modules/
+*.log
+*.cache
+
+# Ignore Drupal-specific generated content
+/sites/default/files/
+sites/default/private/
+sites/default/settings.local.php
+
+# Ignore database dumps and backups
+*.sql
+*.sqlite
+*.tar.gz
+*.zip
+
+# Ignore environment files
+.envgit
